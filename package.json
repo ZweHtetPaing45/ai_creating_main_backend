@@ -1,0 +1,48 @@
+{
+  "name": "pdfchangeai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@andresaya/edge-tts": "^1.8.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/chalk": "^0.4.31",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.2.0",
+    "@types/nodemailer": "^8.0.1",
+    "axios": "^1.18.1",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "chalk": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.1.0",
+    "form-data": "^4.0.6",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "mysql2": "^3.23.2",
+    "nodemailer": "^9.0.5",
+    "ollama": "^0.6.3",
+    "pdf-to-img": "^6.2.0",
+    "sharp": "^0.35.3",
+    "tesseract.js": "^7.0.0",
+    "zod": "^4.1.12"
+  }
+}
